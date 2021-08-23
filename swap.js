@@ -8,7 +8,7 @@ first = second;
 second = temp;
 console.log("result: ", first, second);
 
-// swap using destructing
+// swap using destructing 
 
 [first, second] = [second, first];
 console.log(first, second);
